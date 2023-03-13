@@ -1,0 +1,68 @@
+.container{
+    width: 30%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.95rem;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 1rem;
+}
+
+.head>img{
+    width: 2rem;
+}
+
+.stat{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    color: var(--grey);
+}
+
+.stat>:nth-child(1){
+    font-size: 0.8rem;
+
+}
+
+.stat>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.orders{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--grey);
+    font-size: 0.85rem;
+    gap: 1.5rem;
+}
+
+.order>:nth-child(1){
+    margin-bottom: 0.8rem;
+}
+
+.order>:nth-child(1)>:nth-child(1){
+    font-size: 1rem;
+}
+
+.order>:nth-child(1)>:nth-child(2){
+    font-size: 0.8rem;
+    color: var(--green);
+}
+
+.order>div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: var(--grey);
+    font-size: 0.85rem;
+}
